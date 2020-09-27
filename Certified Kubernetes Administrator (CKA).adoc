@@ -1,5 +1,7 @@
 = Certified Kubernetes Administrator (CKA)
 
+https://github.com/cncf/curriculum[CNCF Exam Curriculum]
+
 == Domains and competencies
 
 === Storage (10%)
