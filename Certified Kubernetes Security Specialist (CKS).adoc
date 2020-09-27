@@ -1,5 +1,7 @@
 = Certified Kubernetes Security Specialist (CKS)
 
+https://github.com/cncf/curriculum[CNCF Exam Curriculum]
+
 == Domains and competencies
 
 === Cluster Setup (10%)
