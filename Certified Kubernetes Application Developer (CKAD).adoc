@@ -1,5 +1,7 @@
 = Certified Kubernetes Application Developer (CKAD)
 
+https://github.com/cncf/curriculum[CNCF Exam Curriculum]
+
 == Domains and competencies
 
 === Core Concepts (13%)
