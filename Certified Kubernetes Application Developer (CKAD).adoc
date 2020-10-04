@@ -13,6 +13,33 @@ https://github.com/cncf/curriculum[CNCF Exam Curriculum]
 
 * Understand ConfigMaps
 ** https://kubernetes.io/docs/concepts/configuration/configmap/[ConfigMaps]
+
+[source, yml]
+----
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-test
+data:
+  paging-size: 10
+  default-url: "https://kubernetes.io"
+  main-menu.properties: |
+    alignment=top,right
+    margin=5
+  user-interface.properties: |
+    color.error=red
+    color.warning=orange
+    color.info=blue
+    allow-admin-mode=true
+----
+
+4 ways to use a ConfigMap to configure a container inside a Pod:
+
+. Command line arguments to the entrypoint of a container
+. Environment variables for a container
+. Add a file in read-only volume, for the application to read
+. Write code to run inside the Pod that uses the Kubernetes API to read a ConfigMap
+
 ** https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/[Configure a Pod to Use a ConfigMap]
 * Understand SecurityContexts
 ** https://kubernetes.io/docs/tasks/configure-pod-container/security-context/[Configure a Security Context for a Pod or Container]
