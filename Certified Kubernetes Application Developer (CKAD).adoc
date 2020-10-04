@@ -12,10 +12,16 @@ https://github.com/cncf/curriculum[CNCF Exam Curriculum]
 === Configuration (18 %)
 
 * Understand ConfigMaps
+** https://kubernetes.io/docs/concepts/configuration/configmap/[ConfigMaps]
+** https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/[Configure a Pod to Use a ConfigMap]
 * Understand SecurityContexts
+** https://kubernetes.io/docs/tasks/configure-pod-container/security-context/[Configure a Security Context for a Pod or Container]
 * Define an application’s resource requirements
+** https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/[Managing Resources for Containers]
 * Create & consume Secrets
+** https://kubernetes.io/docs/concepts/configuration/secret/[Secrets]
 * Understand ServiceAccounts
+** https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/[Configure Service Accounts for Pods]
 
 === Multi-Container Pods (10%)
 
